@@ -38,13 +38,13 @@ Will be used by the script to build:
 ./templates/hello/hello.mailchimp.html
 ```
 
-Which in turn automaticlaly added to:
+Which, in turn, is added to:
 
 ```
 ./templates/hello/hello.mailchimp.json
 ```
 
-and uploaded to mandrill.
+and then uploaded to Mandrill via their RESTful API.
 
 ## Usage
 
