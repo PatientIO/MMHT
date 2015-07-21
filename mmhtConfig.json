@@ -1,0 +1,5 @@
+{
+  "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
+  "TEMPLATES_DIR"           : "./templates",
+  "MAILCHIMP_REPORT"        : "./templates/meta_report/meta_report.mailchimp.html"
+}

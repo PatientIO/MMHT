@@ -1,0 +1,14 @@
+{
+  "key": "Hello",
+  "name": "Example Template",
+  "from_email": "example+test+from@example.com",
+  "from_name": "Example From Name",
+  "subject": "example subject",
+  "code": "<!-- hello.mandrill.html -->",
+  "text": "Example text content",
+  "publish": true,
+  "labels": [
+    "hello",
+    "mc-template"
+  ]
+}

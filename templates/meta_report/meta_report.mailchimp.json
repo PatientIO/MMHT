@@ -1,0 +1,14 @@
+{
+  "key": "Meta Report",
+  "name": "Meta Report",
+  "from_email": "example+mandrill-meta-report@example.com",
+  "from_name": "Mandrill Meta Templates",
+  "subject": "Mandrill Templates Updated",
+  "code": "<!-- meta_report.mandrill.html -->",
+  "text": "Mandrill Meta Templates Report",
+  "publish": true,
+  "labels": [
+    "report",
+    "mc-template"
+  ]
+}
