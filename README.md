@@ -5,8 +5,6 @@ Experimental tool, use at your own risk. See LICENSE
 
 ### Mandrill Mailchimp Templates with Handlebars.
 
-## Confused?
-
 This tool makes it easy to use 2 template languages, and makes it easy to push compiled templates to mandrill.
 Useful for Localization, or other cases where you want to template a template.
 
