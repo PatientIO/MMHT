@@ -1,10 +1,10 @@
 {
   "key": "Hello",
   "name": "Example Template",
-  "from_email": "example+test+from@example.com",
+  "from_email": "mail@example.com",
   "from_name": "Example From Name",
   "subject": "example subject",
-  "code": "<!-- hello.mandrill.html -->",
+  "code": "<!-- hello.mc.html -->",
   "text": "Example text content",
   "publish": true,
   "labels": [

@@ -1,5 +1,6 @@
 {
   "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
+  "HANDLEBARS_KEY"          : "en",
   "TEMPLATES_DIR"           : "./templates",
-  "MAILCHIMP_REPORT"        : "./templates/meta_report/meta_report.mailchimp.html"
+  "TEST_TEMPLATE"           : "./templates/meta_report/meta_report.mc.html"
 }

@@ -5,7 +5,7 @@ Experimental tool, use at your own risk. See LICENSE
 
 ### Mandrill Mailchimp Templates with Handlebars.
 
-Use handlebars to template mailchimp templates, and push them to mandrill.
+Uses handlebars to template mailchimp templates, and push them to mandrill.
 Useful for Localization, or other cases where you want to template a template.
 
 ## Getting Started
@@ -14,34 +14,35 @@ Add your Mandrill API key to mmhtConfig.json:
 
 ```
 {
-  "META_TEMPLATES_DIR"                    : "./meta_templates",
-  "MANDRILL_API_KEY"                      : "XXXXX",
-  "MANDRILL_META_TEMPLATES_REPORT_HTML"   : "./meta_templates/meta_report/meta_report.mandrill.html"
+  "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
+  "HANDLEBARS_KEY"          : "en",
+  "TEMPLATES_DIR"           : "./templates",
+  "TEST_TEMPLATE"           : "./templates/meta_report/meta_report.mc.html"
 }
 
 ```
 
 Update all email addresses, from example.com to whatever...
 
-Organize your templates and associated json in the templates dir.
+Organize your templates and associated json language files in the templates dir.
 
 For Example:
 
 ```
-./templates/hello/hello.handlebars.html
-./templates/hello/hello.handlebars.json
+./templates/hello/hb/_hello.html
+./templates/hello/hb/hello.en.json
 ```
 
 Will be used by the script to build:
 
 ```
-./templates/hello/hello.mailchimp.html
+./templates/hello/hello.mc.html
 ```
 
 Which, in turn, is added to:
 
 ```
-./templates/hello/hello.mailchimp.json
+./templates/hello/hello.mc.json
 ```
 
 and then uploaded to Mandrill via their RESTful API.
@@ -49,7 +50,13 @@ and then uploaded to Mandrill via their RESTful API.
 ## Usage
 
 ```
-npm install && npm start
+npm install && gulp
+```
+
+Support specifying a language directly (assuming you have added the required language file):
+
+```
+gulp compile --lang zh
 ```
 
 
