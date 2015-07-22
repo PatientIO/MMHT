@@ -1,14 +1,14 @@
 {
-  "name": "platform-mandrill-templates",
+  "name": "mmht",
   "version": "1.0.0",
-  "description": "Mandrill Mailchimp Handlebars Templates For Localized Patinet IO Transactional Mail",
+  "description": "Mandrill Mailchimp Handlebars Templates For Localized Transactional Mail",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FilamentLabs/Platform-Mandrill-Templates.git"
+    "url": "git+https://github.com/FilamentLabs/MMHT.git"
   },
   "keywords": [
     "Mandrill",
@@ -20,9 +20,9 @@
   "author": "Orie Steele",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FilamentLabs/Platform-Mandrill-Templates/issues"
+    "url": "https://github.com/FilamentLabs/MMHT/issues"
   },
-  "homepage": "https://github.com/FilamentLabs/Platform-Mandrill-Templates#readme",
+  "homepage": "https://github.com/FilamentLabs/MMHT#readme",
   "dependencies": {
     "fs-extra": "^0.22.1",
     "gulp": "^3.9.0",
