@@ -1,5 +1,5 @@
 {
-  "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
+  "MANDRILL_API_KEY"        : "eWWs5XP4JEuJkqZFCgpaLQ",
   "HANDLEBARS_KEY"          : "en",
   "TEMPLATES_DIR"           : "./templates",
   "TEST_TEMPLATE"           : "./templates/meta_report/meta_report.mc.html"
