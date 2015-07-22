@@ -10,16 +10,16 @@ Useful for Localization, or other cases where you want to template a template.
 
 ## Getting Started
 
-Add your Mandrill API key to mmhtConfig.json:
+You must create a file called "mmhtConfig.json" in the root directory, and it should look like this:
 
 ```
 {
   "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
   "HANDLEBARS_KEY"          : "en",
   "TEMPLATES_DIR"           : "./templates",
+  "DOWNLOADS_DIR"           : "./downloads",
   "TEST_TEMPLATE"           : "./templates/meta_report/meta_report.mc.html"
 }
-
 ```
 
 Update all email addresses, from example.com to whatever...
