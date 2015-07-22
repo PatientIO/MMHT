@@ -29,3 +29,6 @@ downloads
 
 
 .idea
+
+#config where mandrill api key is stored.
+mmhtConfig.json
