@@ -1,4 +1,5 @@
 {
+  "LAST_COMMIT"             : "I'm adding this file to gitignore so I don't accidentally check in creds to a public repo. I've deleted some bad keys.",
   "MANDRILL_API_KEY"        : "YOUR MANDRILL API KEY HERE",
   "HANDLEBARS_KEY"          : "en",
   "TEMPLATES_DIR"           : "./templates",
