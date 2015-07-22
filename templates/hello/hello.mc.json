@@ -1,7 +1,7 @@
 {
   "key": "Hello",
   "name": "Example Template",
-  "from_email": "mail@or13.io",
+  "from_email": "mail@example.com",
   "from_name": "Example From Name",
   "subject": "example subject",
   "code": "<!-- hello.mc.html -->",

@@ -1,7 +1,7 @@
 {
   "key": "Meta Report",
   "name": "Meta Report",
-  "from_email": "mail@or13.io",
+  "from_email": "mail@example.com",
   "from_name": "Mandrill Meta Templates",
   "subject": "Mandrill Templates Updated",
   "code": "<!-- meta_report.mc.html -->",
